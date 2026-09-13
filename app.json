@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "MenteSana",
+    "slug": "mente-sana",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "mentesana",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#14554E"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mentesana.app",
+      "associatedDomains": [
+        "applinks:mentesana.app"
+      ],
+      "infoPlist": {
+        "NSCameraUsageDescription": "Necesitamos acceso a la cámara para que puedas subir fotos de perfil y documentos.",
+        "NSPhotoLibraryUsageDescription": "Necesitamos acceso a tu galería para que puedas subir imágenes.",
+        "NSUserNotificationCenterUsageDescription": "Te enviaremos notificaciones de tus citas y tareas pendientes."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2A9D8F"
+      },
+      "package": "com.mentesana.app",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "POST_NOTIFICATIONS",
+        "RECEIVE_BOOT_COMPLETED"
+      ]
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-notifications",
+      "expo-document-picker",
+      "expo-image-picker",
+      "expo-asset",
+      "expo-font"
+    ],
+    "extra": {
+      "supabaseUrl": "https://jtdlzzdoewridxktmgeb.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp0ZGx6emRvZXdyaWR4a3RtZ2ViIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODExMTI2MjcsImV4cCI6MjA5NjY4ODYyN30.4gnCfDEpSHv_ZvJmxvDd4I8ASZy3wyFs-K1MFbvC13g"
+    }
+  }
+}
