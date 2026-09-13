@@ -1,10 +1,10 @@
-# 🧠 MenteSana - Aplicación de Salud Mental
+#  MenteSana - Aplicación de Salud Mental
 
 Una plataforma integral de salud mental que conecta pacientes con psicólogos, ofrece recursos educativos y proporciona un espacio seguro de comunidad anónima.
 
-## 📱 Características
+##  Características
 
-### Para Pacientes 🙋
+### Para Pacientes 
 - **Check-in emocional diario** - Registra tu estado de ánimo y visualiza tu progreso
 - **Agenda de citas** - Conecta con psicólogos y gestiona tus citas
 - **Tareas terapéuticas** - Recibe y completa tareas asignadas por tu psicólogo
@@ -13,7 +13,7 @@ Una plataforma integral de salud mental que conecta pacientes con psicólogos, o
 - **Chat seguro** - Comunícate con tu psicólogo dentro de la app
 - **Recursos educativos** - Accede a artículos, videos y ejercicios
 
-### Para Psicólogos 👨‍⚕️
+### Para Psicólogos 
 - **Dashboard profesional** - Visualiza tus estadísticas y pacientes
 - **Gestión de pacientes** - Lista de pacientes, notas privadas, historial
 - **Asignación de tareas** - Crea y revisa tareas terapéuticas
@@ -21,12 +21,12 @@ Una plataforma integral de salud mental que conecta pacientes con psicólogos, o
 - **Posts de contenido** - Publica para atraer nuevos pacientes
 - **Estadísticas** - Visualiza vistas de perfil y métricas
 
-### Para Administradores 🛡️
+### Para Administradores 
 - **Verificación de psicólogos** - Aprueba o rechaza solicitudes
 - **Gestión de usuarios** - Administra roles y usuarios
 - **Moderación del foro** - Mantén un espacio seguro
 
-## 🏗️ Stack Tecnológico
+##  Stack Tecnológico
 
 | Capa | Tecnología |
 |------|-----------|
@@ -38,7 +38,7 @@ Una plataforma integral de salud mental que conecta pacientes con psicólogos, o
 | **Almacenamiento** | Supabase Storage |
 | **Tiempo Real** | Supabase Realtime (Chat, Foro) |
 
-## 📦 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 MentalHealthApp/
@@ -66,7 +66,7 @@ MentalHealthApp/
         └── shared/                  # Chat, Profile, Crisis, Notifications
 ```
 
-## 🚀 Setup y Ejecución
+##  Setup y Ejecución
 
 ### Prerrequisitos
 
@@ -111,7 +111,7 @@ npx expo start
 - **iOS**: Escanea el QR con la cámara o presiona `i` para abrir en simulador
 - **Android**: Escanea el QR con la app Expo Go o presiona `a` para emulador
 
-## 🔐 Modelo de Roles y Permisos
+##  Modelo de Roles y Permisos
 
 | Rol | Acceso |
 |-----|--------|
@@ -122,11 +122,11 @@ npx expo start
 
 La seguridad se maneja mediante **Row Level Security (RLS)** de PostgreSQL directamente en la base de datos.
 
-## 📄 Licencia
+##  Licencia
 
 Proyecto privado - Todos los derechos reservados.
 
-## 🆘 Líneas de Crisis (Ecuador)
+##  Líneas de Crisis (Ecuador)
 
 Si estás en un momento de crisis, llama a:
 - **Línea 171 opción 6**: apoyo psicológico gratuito del Ministerio de Salud Pública
